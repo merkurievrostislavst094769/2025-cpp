@@ -2,7 +2,7 @@
 #include <fstream>
 #include <iostream>
 
-#include "homework1.h"
+#include "homework.h"
 
 using namespace std;
 
