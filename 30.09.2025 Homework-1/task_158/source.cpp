@@ -1,18 +1,16 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 
 // Дележ яблок
 int main(int argc, char** argv)
 {
-    long long N;
-    long long K;
-    scanf_s("%lld %lld", &N, &K);
+    long long n = 0;
+    long long k = 0;
+    scanf_s("%lld %lld", &n, &k);
 
-    long long apples = K / N;
-    long long basket = K % N;
-    long long less = K % N;
+    long long apples = k / n;
+    long long basket = k % n;
+    long long less = k % n;
 
     printf("%lld %lld %lld", apples, basket, less);
     return 0;

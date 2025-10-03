@@ -1,15 +1,13 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 
 // Последняя цифра
 int main(int argc, char** argv)
 {
-    long long N;
-    scanf_s("%lld", &N);
+    long long n = 0;
+    scanf_s("%lld", &n);
 
-    int last = N % 10;
+    int last = n % 10;
     printf("%d", last);
     return 0;
 }

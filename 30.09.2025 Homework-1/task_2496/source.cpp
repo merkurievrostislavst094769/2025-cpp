@@ -1,15 +1,13 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 
 // Сокращение перемен
 int main(int argc, char** argv)
 {
-    int K;
-    scanf_s("%d", &K);
+    int k = 0;
+    scanf_s("%d", &k);
 
-    int result = (K - 1) * 5;
+    int result = (k - 1) * 5;
     printf("%d", result);
 
     return 0;

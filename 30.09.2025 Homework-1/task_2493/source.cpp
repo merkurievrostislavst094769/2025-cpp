@@ -1,6 +1,4 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 
 // Hello world

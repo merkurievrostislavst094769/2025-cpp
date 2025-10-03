@@ -1,13 +1,11 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 
 // Проверьте делимость
 int main(int argc, char** argv)
 {
-    int a;
-    int b;
+    int a = 0;
+    int b = 0;
     scanf_s("%d %d", &a, &b);
 
     int c = (a % b == 0) || (b % a == 0);

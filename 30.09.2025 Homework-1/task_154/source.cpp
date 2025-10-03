@@ -1,15 +1,13 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 
 // Число десятков
 int main(int argc, char** argv)
 {
-    long long N;
-    scanf_s("%lld", &N);
+    long long n = 0;
+    scanf_s("%lld", &n);
 
-    int tens = (N / 10) % 10;
+    int tens = (n / 10) % 10;
     printf("%d", tens);
     return 0;
 }

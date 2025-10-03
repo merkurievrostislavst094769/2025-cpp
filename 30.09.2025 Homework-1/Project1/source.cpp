@@ -1,14 +1,12 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 // A+B
 int main(int argc, char** argv)
 {
-    long long A;
-    long long B;
-    scanf_s("%lld %lld", &A, &B);
-    long long sum = A + B;
+    long long a = 0;
+    long long b = 0;
+    scanf_s("%lld %lld", &a, &b);
+    long long sum = a + b;
     printf("%lld", sum);
     return 0;
 }

@@ -6,11 +6,12 @@
 // Игра
 int main(int argc, char** argv)
 {
-    int M, T;
-    scanf_s("%d", &M);
-    scanf_s("%d", &T);
+    int m = 0;
+    int t = 0;
+    scanf_s("%d", &m);
+    scanf_s("%d", &t);
 
-    int ivan = (T < 2 * M);
+    int ivan = (t < 2 * m);
     char I = 'I', v = 'v', a = 'a', n = 'n';
     char D = 'D', e = 'e', n2 = 'n', i = 'i', s = 's';
 

@@ -1,17 +1,15 @@
 #include <cstdio>
-#include <fstream>
-#include <stdio.h>
 
 
 // A+B+C
 int main(int argc, char** argv)
 {
-    long long A;
-    long long B;
-    long long C;
-    scanf_s("%lld %lld %lld", &A, &B, &C);
+    long long a = 0;
+    long long b = 0;
+    long long c = 0;
+    scanf_s("%lld %lld %lld", &a, &b, &c);
 
-    long long sum = A + B + C;
+    long long sum = a + b + c;
     printf("%lld", sum);
 
     return 0;
