@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{07F15576-EF28-4618-8C6E-BE1082383B9F}|task_293\\task_293.vcxproj|solutionrelative:task_293\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{961D6367-6C60-4D00-9A5C-4B5F041861C1}|task_179\\task_179.vcxproj|C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_179\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{961D6367-6C60-4D00-9A5C-4B5F041861C1}|task_179\\task_179.vcxproj|solutionrelative:task_179\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04EAC92C-878D-42E8-8BC7-DF110487B766}|task_180\\task_180.vcxproj|C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_180\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{04EAC92C-878D-42E8-8BC7-DF110487B766}|task_180\\task_180.vcxproj|solutionrelative:task_180\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961D6367-6C60-4D00-9A5C-4B5F041861C1}|task_179\\task_179.vcxproj|C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_179\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{961D6367-6C60-4D00-9A5C-4B5F041861C1}|task_179\\task_179.vcxproj|solutionrelative:task_179\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4323FB4C-F6D9-4CDA-85D4-953460E15E6F}|task_167\\task_167.vcxproj|C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_167\\source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,20 +38,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_180\\source.cpp",
               "RelativeDocumentMoniker": "task_180\\source.cpp",
               "ToolTip": "C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_180\\source.cpp",
               "RelativeToolTip": "task_180\\source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-10T21:00:25.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "source.cpp",
               "DocumentMoniker": "C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_179\\source.cpp",
               "RelativeDocumentMoniker": "task_179\\source.cpp",
@@ -72,8 +72,7 @@
               "RelativeToolTip": "task_1216\\source.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-10T20:36:28.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T20:36:28.245Z"
             },
             {
               "$type": "Document",
@@ -109,7 +108,7 @@
               "RelativeDocumentMoniker": "task_293\\source.cpp",
               "ToolTip": "C:\\Work\\Rost\\Dev\\Cpp\\2025-cpp\\11.10.2025 Homework-2\\task_293\\source.cpp",
               "RelativeToolTip": "task_293\\source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-10T20:28:37.754Z",
               "EditorCaption": ""
