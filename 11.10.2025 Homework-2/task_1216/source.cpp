@@ -1,64 +1,64 @@
 #include <cstdio>
 
 int main() {
-    int A1 = 0;
-    int B1 = 0;
-    int C1 = 0;
-    int A2 = 0;
-    int B2 = 0;
-    int C2 = 0;
+    int aa1 = 0;
+    int bb1 = 0;
+    int cc1 = 0;
+    int aa2 = 0;
+    int bb2 = 0;
+    int cc2 = 0;
 
-    scanf_s("%d %d %d", &A1, &B1, &C1);
-    scanf_s("%d %d %d", &A2, &B2, &C2);
+    scanf_s("%d %d %d", &aa1, &bb1, &cc1);
+    scanf_s("%d %d %d", &aa2, &bb2, &cc2);
 
     int a1 = 0;
     int b1 = 0;
     int c1 = 0;
 
-    if (A1 <= B1)
+    if (aa1 <= bb1)
     {
-        if (A1 <= C1) 
+        if (aa1 <= cc1) 
         {
-            a1 = A1;
-            if (B1 <= C1)
+            a1 = aa1;
+            if (bb1 <= cc1)
             {
-                b1 = B1;
-                c1 = C1;
+                b1 = bb1;
+                c1 = cc1;
             }
             else
             {
-                b1 = C1;
-                c1 = B1;
+                b1 = cc1;
+                c1 = bb1;
             }
         }
         else
         {
-            a1 = C1;
-            b1 = A1;
-            c1 = B1;
+            a1 = cc1;
+            b1 = aa1;
+            c1 = bb1;
         }
     }
     else 
     {
-        if (B1 <= C1) 
+        if (bb1 <= cc1) 
         {
-            a1 = B1;
-            if (A1 <= C1) 
+            a1 = bb1;
+            if (aa1 <= cc1) 
             {
-                b1 = A1;
-                c1 = C1;
+                b1 = aa1;
+                c1 = cc1;
             }
             else
             {
-                b1 = C1;
-                c1 = A1;
+                b1 = cc1;
+                c1 = aa1;
             }
         }
         else
         {
-            a1 = C1;
-            b1 = B1;
-            c1 = A1;
+            a1 = cc1;
+            b1 = bb1;
+            c1 = aa1;
         }
     }
 
@@ -66,50 +66,50 @@ int main() {
     int b2 = 0;
     int c2 = 0;
 
-    if (A2 <= B2)
+    if (aa2 <= bb2)
     {
-        if (A2 <= C2)
+        if (aa2 <= cc2)
         {
-            a2 = A2;
-            if (B2 <= C2) 
+            a2 = aa2;
+            if (bb2 <= cc2) 
             {
-                b2 = B2;
-                c2 = C2;
+                b2 = bb2;
+                c2 = cc2;
             }
             else
             {
-                b2 = C2;
-                c2 = B2;
+                b2 = cc2;
+                c2 = bb2;
             }
         }
         else 
         {
-            a2 = C2;
-            b2 = A2;
-            c2 = B2;
+            a2 = cc2;
+            b2 = aa2;
+            c2 = bb2;
         }
     }
     else 
     {
-        if (B2 <= C2)
+        if (bb2 <= cc2)
         {
-            a2 = B2;
-            if (A2 <= C2)
+            a2 = bb2;
+            if (aa2 <= cc2)
             {
-                b2 = A2;
-                c2 = C2;
+                b2 = aa2;
+                c2 = cc2;
             }
             else 
             {
-                b2 = C2;
-                c2 = A2;
+                b2 = cc2;
+                c2 = aa2;
             }
         }
         else 
         {
-            a2 = C2;
-            b2 = B2;
-            c2 = A2;
+            a2 = cc2;
+            b2 = bb2;
+            c2 = aa2;
         }
     }
 
