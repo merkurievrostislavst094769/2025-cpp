@@ -65,7 +65,7 @@ void print_city(const City* city)
 
     for (int i = 0; i < city->attrCount; i++)
     {
-        printf(" - %s, ãîä: %d\n", city->attractions[i].name, city->attractions[i].year);
+        printf(" - %s, год: %d\n", city->attractions[i].name, city->attractions[i].year);
     }
 }
 
