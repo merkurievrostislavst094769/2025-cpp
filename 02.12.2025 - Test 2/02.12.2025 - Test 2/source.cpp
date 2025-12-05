@@ -60,12 +60,12 @@ City* find_city_with_max_attr(City* cities, int n) {
 
 void print_city(const City* city)
 {
-    printf("Город: %s (%s)\n", city->name, city->country);
-    printf("Достопримечательности (%d):\n", city->attrCount);
+    printf("Р“РѕСЂРѕРґ: %s (%s)\n", city->name, city->country);
+    printf("Р”РѕСЃС‚РѕРїСЂРёРјРµС‡Р°С‚РµР»СЊРЅРѕСЃС‚Рё (%d):\n", city->attrCount);
 
     for (int i = 0; i < city->attrCount; i++)
     {
-        printf(" - %s, год: %d\n", city->attractions[i].name, city->attractions[i].year);
+        printf(" - %s, ГЈГ®Г¤: %d\n", city->attractions[i].name, city->attractions[i].year);
     }
 }
 
@@ -89,7 +89,7 @@ int main(int argc, char** argv) {
     SetConsoleOutputCP(1251);
 
     int n = 0;
-    printf("Введите количество городов: ");
+    printf("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РіРѕСЂРѕРґРѕРІ: ");
     scanf_s("%d", &n);
     getchar();
 
@@ -99,18 +99,18 @@ int main(int argc, char** argv) {
     {
         init_city(&cities[i]);
 
-        printf("\nГород %d\n", i + 1);
+        printf("\nР“РѕСЂРѕРґ\n", i + 1);
 
-        printf("Название города: ");
+        printf("РќР°Р·РІР°РЅРёРµ РіРѕСЂРѕРґР°: ");
         fgets(cities[i].name, sizeof(cities[i].name), stdin);
         newline(cities[i].name);
 
-        printf("Страна: ");
+        printf("РЎС‚СЂР°РЅР°: ");
         fgets(cities[i].country, sizeof(cities[i].country), stdin);
         newline(cities[i].country);
 
         int count = 0;
-        printf("Количество достопримечательностей: ");
+        printf("РљРѕР»РёС‡РµСЃС‚РІРѕ РґРѕСЃС‚РѕРїСЂРёРјРµС‡Р°С‚РµР»СЊРЅРѕСЃС‚РµР№: ");
         scanf_s("%d", &count);
         getchar();
 
@@ -119,11 +119,11 @@ int main(int argc, char** argv) {
             char attr_name[100];
             int year = 0;
 
-            printf("  Название достопримечательности %d: ", j + 1);
+            printf("  РќР°Р·РІР°РЅРёРµ РґРѕСЃС‚РѕРїСЂРёРјРµС‡Р°С‚РµР»СЊРЅРѕСЃС‚Рё %d: ", j + 1);
             fgets(attr_name, sizeof(attr_name), stdin);
             newline(attr_name);
 
-            printf("  Год создания: ");
+            printf("  Р“РѕРґ СЃРѕР·РґР°РЅРёСЏ: ");
             scanf_s("%d", &year);
             getchar();
 
@@ -131,7 +131,7 @@ int main(int argc, char** argv) {
         }
     }
 
-    printf("\n- Все города -\n");
+    printf("\n- Р’СЃРµ РіРѕСЂРѕРґР° -\n");
     for (int i = 0; i < n; i++)
     {
         printf("\n%d.\n", i + 1);
@@ -139,7 +139,7 @@ int main(int argc, char** argv) {
     }
 
     City* best = find_city_with_max_attr(cities, n);
-    printf("\nГород с наибольшим количеством достопримечательностей:\n");
+    printf("\nР“РѕСЂРѕРґ СЃ РЅР°РёР±РѕР»СЊС€РёРј РєРѕР»РёС‡РµСЃС‚РІРѕРј РґРѕСЃС‚РѕРїСЂРёРјРµС‡Р°С‚РµР»СЊРЅРѕСЃС‚РµР№:\n");
     print_city(best);
 
     free_cities(cities, n);
